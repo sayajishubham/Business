@@ -1,0 +1,2248 @@
+@media(min-width:264px) {
+    header {
+        height: auto;
+        width: 100%;
+        display: flex;
+        background-color: #072d65c2;
+        flex-direction: column;
+    }
+
+    .box1 {
+        display: block;
+        width: 100%;
+        background-color: #072d65c2;
+        height: auto;
+
+    }
+
+    .subox2 ul {
+        display: block;
+        padding-top: 20px;
+        text-align: center;
+
+    }
+
+    .subox2 ul li {
+        padding: 10px;
+    }
+
+    .sec2 {
+        width: 100%;
+        height: auto;
+        background-color: #072d65c2;
+    }
+
+    .secsub {
+        width: 100%;
+        height: auto;
+        flex-direction: column-reverse;
+    }
+
+    .secbox1 {
+        margin-top: 0px;
+        width: 100%;
+        padding-top: 0px;
+    }
+
+    .secbox1 h1 {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .secbox1 p {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .secbutton {
+        margin-left: 10%;
+        margin-bottom: 30px;
+        font-size: 12px;
+    }
+
+    #secbutton span {
+        color: aliceblue;
+        margin-left: 0px;
+    }
+
+    .secbox2 {
+        margin-top: 20px;
+        width: 100%;
+        height: auto;
+    }
+
+    .secbox2 img {
+        width: 70%;
+        height: 200px;
+        margin-top: 45px;
+        margin-left: 15%;
+    }
+
+    /* third section*/
+    .logos {
+        width: 100%;
+        height: auto;
+        background-color: whitesmoke;
+    }
+
+    .sublogos {
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .tbox1 {
+        width: 50%;
+        height: 100px;
+        padding-left: 20px;
+    }
+
+    .sublogos img {
+        margin-left: 20px;
+        height: 35px;
+        width: 45px;
+    }
+
+    /* 4th section */
+    .subabout {
+        width: 100%;
+        margin-top: 60px;
+    }
+
+    .subab {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .subabout h1 {
+        font-size: 30px;
+    }
+
+    .div1 {
+        width: 100%;
+        padding: 0px 10px;
+    }
+
+    .div2 {
+        width: 100%;
+        padding: 0px 10px;
+        padding-top: 50px;
+    }
+
+    /* 5th section */
+    .extra {
+        height: auto;
+        width: 100%;
+        background-color: whitesmoke;
+    }
+
+    .subextra {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .extra1 {
+        width: 100%;
+    }
+
+    .extra1 h1 {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .extra1 p {
+        margin-left: 5%;
+        margin-top: 10px;
+        margin-right: 5%;
+
+    }
+
+    .extra2 img {
+        width: 100%;
+        margin-left: 0%;
+        height: 300px;
+    }
+
+    .extra2 {
+        width: 100%;
+    }
+
+    .extrasub {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    /* 6th section */
+    .skill {
+        height: auto;
+        width: 100%;
+    }
+
+    .subskill {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .skill1 {
+        width: 100%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .skill2 {
+        width: 100%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    /* 7th secton */
+    #services {
+        height: auto;
+        width: 100%;
+    }
+
+    .service {
+        width: 100%;
+    }
+
+    .sermain {
+        display: block;
+        /* flex-direction: row; */
+    }
+
+    .serbox1 {
+        width: 90%;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .serbox1 h1 {
+        text-align: left;
+        font-size: 25px;
+    }
+
+    .serbox1 P {
+        margin-top: 5%;
+        text-align: center;
+    }
+
+    /* 8th section */
+    .cta {
+        width: 100%;
+        height: auto;
+        padding: 0px;
+    }
+
+    .subcta {
+        width: 100%;
+        margin: 0px;
+        height: 350px;
+        background-attachment: scroll;
+        background-position: center;
+        background-position: cover;
+        padding: 50px 50px;
+    }
+
+    .subcta h1 {
+        font-size: 25px;
+    }
+
+    .subcta p {
+        font-size: 15px;
+        text-align: justify;
+        margin-bottom: 30px;
+    }
+
+    .subcta a {
+        /* margin: 0px; */
+        margin-left: 10px;
+        padding: 10px 20px;
+    }
+
+    #portfolio {
+        height: auto;
+    }
+
+    #portfolio h1 {
+        margin-top: 30px;
+    }
+
+    .subportfolio {
+        width: 100%;
+
+    }
+
+    /* 9th section */
+    .gallery {
+        height: auto;
+        width: 100%;
+    }
+
+    .subgallery {
+        width: 100%;
+        height: auto;
+    }
+
+    .sbox1 {
+        flex-direction: column;
+    }
+
+    .sbox11 {
+        width: 100%;
+    }
+
+    .sbox12 {
+        width: 100%;
+    }
+
+    .sbox13 {
+        width: 100%;
+    }
+
+    .sbox2 {
+        flex-direction: column;
+    }
+
+    .sbox12 {
+        width: 100%;
+    }
+
+    .sbox22 {
+        width: 100%;
+    }
+
+    .sbox32 {
+        width: 100%;
+    }
+
+    .sbox3 {
+        flex-direction: column;
+    }
+
+    .sbox31 {
+        width: 100%;
+    }
+
+    .sbox32 {
+        width: 100%;
+        height: auto;
+    }
+
+    .sbox33 {
+        width: 100%;
+    }
+
+    /* 10Th section */
+    #team {
+        width: 100%;
+        height: auto;
+    }
+
+    .subteam {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .t1 {
+        width: 90%;
+        margin: auto;
+        border-radius: 7px;
+    }
+
+    .subteam img {
+        margin-top: 50%;
+
+    }
+
+    .t2 {
+        width: 90%;
+        margin: auto;
+        border-radius: 7px;
+        margin-top: 5%;
+
+    }
+
+    .t3 {
+        width: 90%;
+        margin: auto;
+        border-radius: 7px;
+        margin-top: 5%;
+
+    }
+
+    .t4 {
+        width: 90%;
+        margin: auto;
+        border-radius: 7px;
+        margin-top: 5%;
+
+    }
+
+    /* 11th section */
+    .subprice {
+        width: 100%;
+        height: 1500px;
+        flex-direction: column;
+    }
+
+    .price {
+        width: 90%;
+        margin: auto;
+        height: 470px;
+        font-size: 12px;
+    }
+
+    /* 12th section */
+    .subfre {
+        width: 80%;
+    }
+
+    .fresub1 {
+        padding-left: 10%;
+        font-size: 12px;
+        padding-right: 10%;
+    }
+
+    .fresub1 span {
+        padding-left: 0%;
+    }
+
+    /* 13th section */
+    .contact {
+        width: 100%;
+        height: auto;
+    }
+
+    .contactsub {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact1 {
+        width: 80%;
+        margin: auto;
+    }
+
+    .contact2 {
+        width: 80%;
+        margin: auto;
+        margin-top: 40px;
+        height: 500px;
+    }
+
+    .contact2 a {
+        left: 16%;
+        bottom: 8%;
+    }
+
+    /* 14th section */
+    .subjoin {
+        width: 50%;
+    }
+
+    .join h1 {
+        font-size: 20px;
+        text-align: left;
+    }
+
+    .join p {
+        text-align: justify;
+    }
+
+    .subjoin1 input {
+        width: 100%;
+        height: 22px;
+    }
+
+    .subjoin1 a {
+        padding: 3px 6px;
+        bottom: 58%;
+        left: 79%;
+    }
+
+    /* 15th section */
+    footer {
+        width: 100%;
+        height: auto;
+    }
+
+    .subfooter {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footbox1 {
+        width: 100%;
+        height: 250px;
+        padding-left: 5%;
+    }
+
+    /* 16th secttion */
+    .foot {
+        height: 80px;
+        width: 100%;
+    }
+
+    .foot1 {
+        height: 80px;
+        width: 80%;
+        line-height: 20px;
+        display: flex;
+        flex-direction: column;
+        font-size: 10px;
+        justify-content: center;
+        text-align: center;
+    }
+
+
+
+}
+
+@media(min-width:480px) {
+    header {
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(34, 85, 157, 0.081);
+    }
+
+    .box1 {
+        display: block;
+        width: 100%;
+        height: auto;
+        background-color: #072d65c2;
+
+    }
+
+    .subox2 ul {
+        display: block;
+        padding-top: 15px;
+        text-align: center;
+
+    }
+
+    .sec2 {
+        width: 100%;
+        height: auto;
+        background-color: #072d65c2;
+    }
+
+    .secsub {
+        width: 100%;
+        height: auto;
+        flex-direction: column-reverse;
+    }
+
+    .secbox1 {
+        margin-top: 0px;
+        width: 100%;
+        padding-top: 0px;
+    }
+
+    .secbox1 h1 {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .secbox1 p {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .secbutton {
+        margin-left: 30%;
+        margin-bottom: 30px;
+        font-size: 16px;
+
+    }
+
+    #secbutton span {
+        color: aliceblue;
+        margin-left: 25px;
+    }
+
+    .secbox2 {
+        margin-top: 20px;
+        width: 100%;
+        height: auto;
+    }
+
+    .secbox2 img {
+        width: 70%;
+        height: 200px;
+        margin-top: 45px;
+        margin-left: 15%;
+    }
+
+    /* third section */
+    .logos {
+        width: 100%;
+        height: auto;
+        background-color: whitesmoke;
+    }
+
+    .sublogos {
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .tbox1 {
+        width: 33.33%;
+        height: 100px;
+        padding-left: 30PX;
+    }
+
+    .sublogos img {
+        margin-left: 20px;
+        height: 35px;
+        width: 45px;
+    }
+
+    /* 4th section */
+    #about {
+        height: auto;
+    }
+
+    .subabout {
+        width: 100%;
+        height: auto;
+        margin-top: 80px;
+    }
+
+    .subabout h1 {
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .subab {
+        display: block;
+    }
+
+    .div1 {
+        width: 100%;
+        padding: 0px 10px;
+    }
+
+    .div2 {
+        width: 100%;
+        padding: 0px 10px;
+        padding-top: 50px;
+    }
+
+    /* 5th section */
+    .extra {
+        height: auto;
+        width: 100%;
+        background-color: whitesmoke;
+    }
+
+    .subextra {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .extra1 {
+        width: 100%;
+    }
+
+    .extra1 h1 {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .extra1 p {
+        margin-left: 5%;
+        margin-top: 10px;
+        margin-right: 5%;
+
+    }
+
+    .extra2 img {
+        width: 100%;
+        margin-left: 0%;
+        height: 300px;
+    }
+
+    .extra2 {
+        width: 100%;
+    }
+
+    .extrasub {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    /* 6th section */
+    .skill {
+        height: auto;
+        width: 100%;
+    }
+
+    .subskill {
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .skill1 {
+        width: 100%;
+    }
+
+    .skill2 {
+        width: 100%;
+        margin-top: 10%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    /* 7th secton */
+    #services {
+        height: auto;
+        width: 100%;
+    }
+
+    .service {
+        width: 100%;
+    }
+
+    .sermain {
+        display: block;
+        /* flex-direction: row; */
+    }
+
+    .serbox1 {
+        width: 90%;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .serbox1 h1 {
+        text-align: left;
+        font-size: 25px;
+    }
+
+    .serbox1 P {
+        margin-top: 5%;
+        text-align: center;
+    }
+
+    /* 8th section */
+    .cta {
+        width: 100%;
+        height: 550px;
+        padding: 0px;
+    }
+
+    .subcta {
+        width: 100%;
+        margin: 0px;
+        height: 350px;
+        background-attachment: scroll;
+        background-position: center;
+        background-position: cover;
+        padding: 50px 50px;
+    }
+
+    .subcta h1 {
+        font-size: 25px;
+        margin-top: 20%;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+
+    .subcta p {
+        font-size: 15px;
+        text-align: justify;
+        margin-bottom: 30px;
+        text-align: center;
+        /* margin-top:  5%; */
+    }
+
+    .subcta a {
+        /* margin: 0px; */
+        margin-left: 30%;
+        padding: 10px 20px;
+    }
+
+    #portfolio {
+        height: auto;
+    }
+
+    #portfolio h1 {
+        margin-top: 30px;
+    }
+
+    .subportfolio {
+        width: 80%;
+        margin: auto;
+        justify-content: space-around;
+
+    }
+
+    /* 9th section */
+    .gallery {
+        height: auto;
+        width: 100%;
+    }
+
+    .subgallery {
+        width: 100%;
+        height: auto;
+    }
+
+    .sbox1 {
+        flex-direction: column;
+    }
+
+    .sbox11 {
+        width: 80%;
+        margin: auto;
+    }
+
+    .sbox12 {
+        width: 80%;
+        margin: auto;
+    }
+
+    .sbox13 {
+        width: 80%;
+        margin: auto;
+        ;
+    }
+
+    .sbox2 {
+        flex-direction: column;
+    }
+
+    .sbox12 {
+        width: 80%;
+        margin: auto;
+    }
+
+    .sbox22 {
+        width: 80%;
+        margin: auto;
+    }
+
+    .sbox32 {
+        width: 80%;
+        margin: auto;
+        ;
+    }
+
+    .sbox3 {
+        flex-direction: column;
+    }
+
+    .sbox31 {
+        width: 80%;
+        margin: auto;
+    }
+
+    .sbox32 {
+        width: 100%;
+        height: auto;
+    }
+
+    .sbox33 {
+        width: 80%;
+        margin: auto;
+    }
+
+    /* 10Th section */
+    #team {
+        width: 100%;
+        height: auto;
+    }
+
+    .subteam {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .t1 {
+        width: 90%;
+        margin: auto;
+        border-radius: 7px;
+    }
+
+    .subteam img {
+        margin-top: 50%;
+
+    }
+
+    .t2 {
+        width: 90%;
+        margin: auto;
+        border-radius: 7px;
+        margin-top: 5%;
+
+    }
+
+    .t3 {
+        width: 90%;
+        margin: auto;
+        border-radius: 7px;
+        margin-top: 5%;
+
+    }
+
+    .t4 {
+        width: 90%;
+        margin: auto;
+        border-radius: 7px;
+        margin-top: 5%;
+
+    }
+
+    /* 11th section */
+    .subprice {
+        width: 100%;
+        height: 1400px;
+        flex-direction: column;
+    }
+
+    .price {
+        width: 90%;
+        margin: auto;
+        height: 450px;
+        font-size: 18px;
+    }
+
+    /* 12th section */
+    .frequently h1 {
+        font-size: 20PX;
+    }
+
+    .frequently P {
+        font-size: 12PX;
+    }
+
+    .subfre {
+        width: 80%;
+    }
+
+    .fresub1 {
+        padding-left: 10%;
+        font-size: 15px;
+        padding-right: 10%;
+    }
+
+    .fresub1 span {
+        padding-left: 0%;
+    }
+
+    /* 13th section */
+    .contact {
+        width: 100%;
+        height: auto;
+    }
+
+    .contactsub {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact1 {
+        width: 80%;
+        margin: auto;
+    }
+
+    .contact2 {
+        width: 80%;
+        margin: auto;
+        margin-top: 40px;
+        height: 450px;
+    }
+
+    .contact2 a {
+        left: 29%;
+        bottom: 7%;
+    }
+
+    /* 14th section */
+    .subjoin {
+        width: 50%;
+    }
+
+    .join h1 {
+        font-size: 20px;
+        text-align: left;
+    }
+
+    .join p {
+        text-align: justify;
+    }
+
+    .subjoin1 input {
+        width: 100%;
+        height: 22px;
+    }
+
+    .subjoin1 a {
+        padding: 3px 6px;
+        bottom: 59%;
+        left: 79%;
+    }
+
+    /* 15th section */
+    footer {
+        width: 100%;
+        height: auto;
+    }
+
+    .subfooter {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .footbox1 {
+        width: 50%;
+        height: 250px;
+        padding-left: 5%;
+    }
+
+    /* 16th section */
+    .foot {
+        height: 80px;
+        width: 100%;
+    }
+
+    .foot1 {
+        height: 80px;
+        width: 80%;
+        line-height: 20px;
+        display: flex;
+        flex-direction: column;
+        font-size: 10px;
+        justify-content: center;
+        text-align: center;
+    }
+
+
+
+
+}
+
+@media(min-width:960px) {
+    header {
+        width: 100%;
+        height: 60px;
+        background-color: #0c336dc4;
+    }
+
+    .box1 {
+        width: 80%;
+        height: 60px;
+        margin: auto;
+        background-color: #13387009;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .subox2 ul {
+        display: flex;
+        font-size: 18px;
+        align-items: center;
+    }
+
+    .subox2 ul li {
+        list-style: none;
+        padding: 0% 0% 0% 23px;
+    }
+
+    .subox2 ul li a {
+        text-decoration: none;
+        color: aliceblue;
+        transition: all 0.5s;
+    }
+
+    #button {
+        border: 2px solid rgb(78, 153, 219);
+        padding: 8px 10px;
+        border-radius: 20px;
+    }
+
+    .subox2 ul li a:hover {
+        color: rgb(78, 153, 219);
+    }
+
+    #button:hover {
+        background-color: rgb(78, 153, 219);
+    }
+
+    .sec2 {
+        width: 100%;
+        height: 600px;
+        background-color: #0c336dc4;
+    }
+
+    .secsub {
+        width: 80%;
+        height: 500px;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .secbox1 {
+        margin-top: 150PX;
+        width: 50%;
+        padding-top: 30px;
+    }
+
+    .secbox1 h1 {
+        font-size: 50PX;
+        color: aliceblue;
+        font-weight: bold;
+        padding-left: 0%;
+        text-align: left;
+    }
+
+    .secbox1 P {
+        text-align: left;
+    }
+
+    .secbutton {
+        margin-top: 50px;
+        margin-left: 0%;
+        font-size: 16px;
+
+
+    }
+
+    #buttonsec {
+        /* border: 1px solid black; */
+        padding: 10px 15PX;
+        border-radius: 25PX;
+        background-color: rgb(78, 153, 219);
+    }
+
+    #secbutton span {
+        color: aliceblue;
+        margin-left: 35px;
+    }
+
+    #secbutton {
+        transition: all 0.5s;
+    }
+
+    #secbutton:hover i {
+        color: rgb(78, 153, 219);
+
+    }
+
+    .secbutton a {
+        color: aliceblue;
+        text-decoration: none;
+    }
+
+    .secbox2 {
+        margin-top: 0px;
+        width: 50%;
+        height: 540px;
+    }
+
+    .secbox2 img {
+        width: 90%;
+        height: 500px;
+        padding-left: 0%;
+    }
+
+    /* Third section */
+    .logos {
+        width: 100%;
+        height: 100px;
+        background-color: whitesmoke;
+    }
+
+    .sublogos {
+        width: 80%;
+        margin: auto;
+        height: 100px;
+        display: flex;
+        background-color: whitesmoke;
+    }
+
+    .tbox1 {
+        width: 16.66%;
+        height: 100px;
+        filter: grayscale(1);
+        transition: all 0.4s;
+    }
+
+    .sublogos img {
+        height: 40px;
+        width: 90px;
+        margin-top: 25px;
+        margin-left: 30px;
+        transition: all 0.4s;
+    }
+
+    /* 4th section */
+    #about {
+        height: auto;
+    }
+
+    .subabout {
+        width: 80%;
+        margin: auto;
+        height: auto;
+        margin-top: 80px;
+    }
+
+    .subabout h1 {
+        text-align: center;
+        font-size: 40px;
+        padding-bottom: 20px;
+        color: rgb(78, 153, 219);
+    }
+
+    /* .subabout h1::after {
+        border-bottom: 2px soild rgb(78, 153, 219);
+        width: 100%;
+    } */
+
+    .subab {
+        width: 100%;
+        height: auto;
+        display: flex;
+        margin-bottom: 8%;
+    }
+
+    .div1 {
+        width: 50%;
+        height: auto;
+        padding-top: 50px;
+    }
+
+    .div1 ul li {
+        list-style: none;
+        padding-bottom: 5px;
+    }
+
+    .div1 i {
+        font-size: 25px;
+        color: rgb(78, 153, 219);
+    }
+
+    .div2 {
+        width: 50%;
+        padding-top: 50px;
+        line-height: 25px;
+    }
+
+    /* 5th section */
+    .extra {
+        height: auto;
+        width: 100%;
+        background-color: whitesmoke;
+    }
+
+    .subextra {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        height: auto;
+    }
+
+    .extra1 {
+        width: 50%;
+        padding-top: 10%;
+
+    }
+
+    .extra1 span {
+        color: rgb(78, 153, 219);
+        font-size: 20px;
+    }
+
+    .extra1 h1 {
+        color: rgb(78, 153, 219);
+    }
+
+    .extra1 i {
+        font-weight: 300;
+    }
+
+    .extra1 p {
+        color: gray;
+        line-height: 20px;
+        margin-top: 10px;
+    }
+
+    .extrasub {
+        width: 100%;
+        /* margin: auto; */
+        height: 70px;
+        /* padding-top: 15px; */
+        background-color: white;
+        margin-top: 20px;
+        align-content: center;
+        font-size: 20px;
+        transition: all 0.4s;
+    }
+
+    .extrasub:hover {
+        color: rgb(78, 153, 219);
+
+    }
+
+    .extrasub span {
+        padding-right: 5px;
+    }
+
+    .extra2 {
+        width: 50%;
+        padding-top: 6%;
+        /* padding-left: 20%;    */
+    }
+
+    .extra2 img {
+        width: 650px;
+        margin-left: 20%;
+        height: 550px;
+        /* padding-top: 15px; */
+    }
+
+    /* section 6th */
+    .skill {
+        height: auto;
+        width: 100%;
+        /* background-color: aliceblue; */
+    }
+
+    .subskill {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .skill1 {
+        width: 50%;
+        height: auto;
+        margin-top: 10%;
+    }
+
+    .skill1 img {
+        width: 100%;
+
+    }
+
+    .skill2 {
+        width: 50%;
+        margin-top: 10%;
+
+    }
+
+    .skillsub {
+        width: 100%;
+        color: rgb(78, 153, 219);
+        margin-top: 20px;
+    }
+
+    .per1 {
+        width: 100%;
+        height: 14px;
+        border: 1px solid rgb(78, 153, 219);
+    }
+
+    .per2 {
+        width: 100%;
+        height: 14px;
+        background-color: rgb(78, 153, 219);
+    }
+
+    .skillsub1 {
+        width: 100%;
+        color: rgb(78, 153, 219);
+        margin-top: 20px;
+
+    }
+
+    .per11 {
+        width: 100%;
+        height: 14px;
+        border: 1px solid rgb(78, 153, 219);
+    }
+
+    .per21 {
+        width: 90%;
+        height: 14px;
+        background-color: rgb(78, 153, 219);
+    }
+
+    .skillsub2 {
+        width: 100%;
+        color: rgb(78, 153, 219);
+        margin-top: 20px;
+
+    }
+
+    .per12 {
+        width: 100%;
+        height: 14px;
+        border: 1px solid rgb(78, 153, 219);
+    }
+
+    .per22 {
+        width: 75%;
+        height: 14px;
+        background-color: rgb(78, 153, 219);
+    }
+
+    .skillsub3 {
+        width: 100%;
+        color: rgb(78, 153, 219);
+        margin-top: 20px;
+
+    }
+
+    .per13 {
+        width: 100%;
+        height: 14px;
+        border: 1px solid rgb(78, 153, 219);
+    }
+
+    .per23 {
+        width: 55%;
+        height: 14px;
+        background-color: rgb(78, 153, 219);
+    }
+
+    /* 7th section */
+    #services {
+        height: auto;
+        width: 100%;
+        background-color: whitesmoke;
+        margin-bottom: 0%;
+    }
+
+    .service {
+        width: 80%;
+        margin: auto;
+    }
+
+    .service h1 {
+        text-align: center;
+        padding-top: 10%;
+        font-size: 33px;
+        color: rgb(78, 153, 219);
+
+    }
+
+    .service p {
+        text-align: center;
+        padding-top: 4%;
+        font-size: 20px;
+        padding-bottom: 4%;
+        color: grey;
+    }
+
+    .sermain {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .serbox1 {
+        width: 23%;
+        height: 300px;
+        border: 1px solid black;
+        margin-bottom: 6%;
+        background-color: white;
+        padding-top: 20px;
+        transition: all 0.4s;
+    }
+
+    .serbox1 h1 {
+        text-align: left;
+        padding-left: 10%;
+        line-height: 50px;
+        color: rgba(50, 53, 236, 0.75);
+    }
+
+    .serbox1 h1 i {
+        color: rgb(78, 153, 219);
+    }
+
+    .serbox1 P {
+        margin-top: 1%;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .serbox1 h1:hover {
+        color: rgb(78, 153, 219);
+    }
+
+    /* 8th section */
+    .cta {
+        width: 100%;
+        height: 550px;
+        padding: 0px 0px;
+
+    }
+
+    .subcta {
+        width: 100%;
+        margin: auto;
+        /* border: 1px solid black; */
+        height: 350px;
+        background-image: linear-gradient(rgba(18, 54, 86, 0.9), rgba(18, 54, 86, 0.9)), url(img/cta-bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        padding: 100px 100px;
+    }
+
+    .subcta a {
+        margin-left: 70%;
+        top: 30%;
+        border: 2px solid white;
+        border-radius: 30px;
+        color: aliceblue;
+        padding: 20px 40px;
+        text-decoration: none;
+    }
+
+    .subcta h1 {
+        font-size: 33px;
+        margin-top: 2%;
+        text-align: left;
+        margin-bottom: 0%;
+    }
+
+    .subcta p {
+        font-size: 18px;
+        text-align: justify;
+        margin-bottom: 30px;
+        text-align: left;
+        /* margin-top:  5%; */
+    }
+
+    #portfolio {
+        height: 200px;
+        width: 100%;
+        background-color: white;
+    }
+
+    #portfolio h1 {
+        margin-top: 45px;
+        text-align: center;
+        color: rgb(78, 153, 219);
+    }
+
+    .subportfolio {
+        width: 20%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /* 9th section */
+    .gallery {
+        height: auto;
+        width: 100%;
+        /* background-color: black; */
+        margin-top: 6%;
+    }
+
+    .subgallery {
+        width: 80%;
+        height: auto;
+        margin: auto;
+    }
+
+    .sbox1 {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 0%;
+        flex-direction: row;
+
+    }
+
+    .sbox11 {
+        width: 32%;
+        height: auto;
+        background-color: aliceblue;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .sbox11 img {
+        width: 100%;
+    }
+
+    .subg {
+        width: 100%;
+        height: 50px;
+        background-color: rgba(78, 153, 219, 0.404);
+        position: absolute;
+        bottom: -0%;
+        visibility: hidden;
+    }
+
+    .sbox11:hover .subg {
+        visibility: visible;
+    }
+
+    .sbox11:hover img {
+        transform: scale(1.2);
+    }
+
+    .sbox12 {
+        width: 32%;
+        height: auto;
+        /* background-color: aliceblue;  */
+        position: relative;
+        overflow: hidden;
+
+    }
+
+    .sbox12 img {
+        width: 100%;
+    }
+
+    .subg1 {
+        width: 100%;
+        height: 50px;
+        background-color: rgba(78, 153, 219, 0.404);
+        position: absolute;
+        bottom: 0%;
+        visibility: hidden;
+    }
+
+    .sbox12:hover .subg1 {
+        visibility: visible;
+    }
+
+    .sbox12:hover img {
+        transform: scale(1.2);
+    }
+
+    .sbox13 {
+        width: 32%;
+        height: auto;
+        /* background-color: aliceblue; */
+        position: relative;
+        overflow: hidden;
+    }
+
+    .sbox13 img {
+        width: 100%;
+    }
+
+    .subg2 {
+        width: 100%;
+        height: 50px;
+        background-color: rgba(78, 153, 219, 0.404);
+        position: absolute;
+        bottom: 0%;
+        visibility: hidden;
+    }
+
+    .sbox13:hover .subg2 {
+        visibility: visible;
+    }
+
+    .sbox13:hover img {
+        transform: scale(1.2);
+    }
+
+
+
+    .subg2 {
+        width: 100%;
+        height: 50px;
+        background-color: rgba(78, 153, 219, 0.404);
+        position: absolute;
+        bottom: 45%;
+    }
+
+    .sbox2 {
+        height: auto;
+        width: 100%;
+        /* color: aliceblue; */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .sbox12 {
+        width: 32%;
+        margin-top: 2%;
+        position: relative;
+    }
+
+    .sbox12 img {
+        width: 100%;
+    }
+
+    .subg3 {
+        width: 100%;
+        height: 50px;
+        background-color: rgba(78, 153, 219, 0.404);
+        position: absolute;
+        bottom: 2%;
+        visibility: hidden;
+    }
+
+    .sbox12:hover .subg3 {
+        visibility: visible;
+    }
+
+    .sbox12:hover img {
+        transform: scale(1.2);
+    }
+
+
+
+
+
+
+    .subg3 {
+        position: absolute;
+        bottom: 0%;
+        width: 100%;
+        height: 50px;
+        background-color: rgba(78, 153, 219, 0.404);
+    }
+
+    .sbox22 {
+        width: 32%;
+        margin-top: -7%;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .sbox22 img {
+        width: 100%;
+    }
+
+    .subg4 {
+        position: absolute;
+        bottom: 0%;
+        width: 100%;
+        height: 50px;
+        background-color: rgba(78, 153, 219, 0.404);
+        visibility: hidden;
+    }
+
+    .sbox22:hover .subg4 {
+        visibility: visible;
+    }
+
+    .sbox22:hover img {
+        transform: scale(1.2);
+    }
+
+
+
+
+    .sbox32 {
+        width: 32%;
+        margin-top: -12%;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .sbox32 img {
+        width: 100%;
+    }
+
+    .subg5 {
+        position: absolute;
+        bottom: 0%;
+        width: 100%;
+        height: 50px;
+        background-color: rgba(78, 153, 219, 0.404);
+        visibility: hidden;
+    }
+
+    .sbox32:hover .subg5 {
+        visibility: visible;
+    }
+
+    .sbox32:hover img {
+        transform: scale(1.2);
+    }
+
+
+
+    .sbox3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .sbox13 {
+        width: 32%;
+        margin-top: 2%;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .sbox13 img {
+        width: 100%;
+    }
+
+    .subg6 {
+        position: absolute;
+        bottom: 0%;
+        width: 100%;
+        height: 50px;
+        background-color: rgba(78, 153, 219, 0.404);
+        visibility: hidden;
+    }
+
+    .sbox13:hover .subg6 {
+        visibility: visible;
+    }
+
+    .sbox13:hover img {
+        transform: scale(1.2);
+    }
+
+
+
+
+
+    .sbox23 {
+        width: 32%;
+        margin-top: -7%;
+        position: relative;
+        overflow: hidden;
+        transition: all 0.3s;
+
+
+    }
+
+    .sbox23 img {
+        width: 100%;
+    }
+
+    .subg7 {
+        position: absolute;
+        bottom: 0%;
+        width: 100%;
+        height: 50px;
+        background-color: rgba(78, 153, 219, 0.404);
+        visibility: hidden;
+    }
+
+    .sbox23:hover .subg7 {
+        visibility: visible;
+    }
+
+    .sbox23:hover img {
+        transform: scale(1.2);
+    }
+
+
+
+
+    .sbox33 {
+        width: 32%;
+        margin-top: -39%;
+        position: relative;
+        overflow: hidden;
+        transition: all 0.2s;
+    }
+
+    .sbox33 img {
+        width: 100%;
+    }
+
+    .subg8 {
+        position: absolute;
+        bottom: 0%;
+        width: 100%;
+        height: 50px;
+        background-color: rgba(78, 153, 219, 0.404);
+        visibility: hidden;
+    }
+
+    .sbox33:hover .subg8 {
+        visibility: visible;
+    }
+
+    .sbox33:hover img {
+        transform: scale(1.2);
+    }
+
+    /* 10th section */
+    #team {
+        width: 100%;
+        height: auto;
+        background-color: whitesmoke;
+        margin-bottom: 15px;
+    }
+
+    #team h1 {
+        text-align: center;
+        margin-top: 5%;
+        padding-top: 5%;
+        padding-bottom: 3%;
+    }
+
+    #team p {
+        text-align: center;
+        margin-bottom: 2%;
+        margin-left: 10%;
+    }
+
+    .subteam {
+        width: 80%;
+        height: auto;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+    }
+
+    .t1 {
+        width: 49%;
+        height: 300px;
+        border: 1px solid black;
+        display: flex;
+        background-color: white;
+        margin-top: 5%;
+    }
+
+    .t11 {
+        width: 40%;
+    }
+
+    .t11 img {
+        width: 80%;
+        margin-top: 17%;
+        margin-left: 10%;
+        border-radius: 200px;
+    }
+
+    .t12 {
+        width: 60%;
+        padding-top: 10%;
+    }
+
+    .t12 i {
+        font-size: 23px;
+        padding: 30px 10px;
+    }
+
+    .t2 {
+        width: 49%;
+        height: 300px;
+        border: 1px solid black;
+        display: flex;
+        background-color: white;
+
+
+    }
+
+    .t21 {
+        width: 40%;
+    }
+
+    .t21 img {
+        width: 80%;
+        margin-top: 17%;
+        margin-left: 10%;
+        border-radius: 200px;
+
+    }
+
+    .t22 {
+        width: 60%;
+        padding-top: 10%;
+    }
+
+    .t22 i {
+        font-size: 23px;
+        padding: 30px 10px;
+    }
+
+    .t3 {
+        width: 49%;
+        height: 300px;
+        border: 1px solid black;
+        margin-top: 2%;
+        display: flex;
+        background-color: white;
+
+
+    }
+
+    .t31 {
+        width: 40%;
+    }
+
+    .t31 img {
+        width: 80%;
+        margin-top: 17%;
+        margin-left: 10%;
+        border-radius: 200px;
+
+    }
+
+    .t32 {
+        width: 60%;
+        padding-top: 10%;
+    }
+
+    .t32 i {
+        font-size: 23px;
+        padding: 30px 10px;
+    }
+
+    .t4 {
+        width: 49%;
+        height: 300px;
+        border: 1px solid black;
+        margin-top: 2%;
+        display: flex;
+        background-color: white;
+
+
+
+    }
+
+    .t41 {
+        width: 40%;
+    }
+
+    .t41 img {
+        width: 80%;
+        margin-top: 17%;
+        margin-left: 10%;
+        border-radius: 200px;
+
+    }
+
+    .t42 {
+        width: 60%;
+        padding-top: 10%;
+    }
+
+    .t42 i {
+        font-size: 23px;
+        padding: 30px 10px;
+    }
+
+    /* 11th section */
+    .pricing {
+        width: 100%;
+        height: auto;
+    }
+
+    .pricing h1 {
+        color: rgb(78, 153, 219);
+        text-align: center;
+        margin-top: 7%;
+    }
+
+    .pricing p {
+        text-align: center;
+    }
+
+    .subprice {
+        width: 80%;
+        margin: auto;
+        height: 450px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .price {
+        width: 32%;
+        height: 450px;
+        background-color: whitesmoke;
+        border-radius: 12px;
+        line-height: 30px;
+        position: relative;
+
+
+    }
+
+    .price h3 {
+        margin-left: 10%;
+        margin-top: 10%;
+        color: rgb(78, 153, 219);
+        margin-bottom: 7%;
+    }
+
+    .price span {
+        padding-left: 10%;
+
+    }
+
+    .price i {
+        margin-left: 10%;
+    }
+
+    .price a {
+        position: absolute;
+        bottom: 10%;
+        left: 10%;
+        border: 1px solid rgb(78, 153, 219);
+        text-decoration: none;
+        padding: 8px 20px;
+        border-radius: 50px;
+        color: rgb(78, 153, 219);
+        transition: all 0.3s;
+
+    }
+
+    .price a:hover {
+        background-color: rgb(78, 153, 219);
+        color: white;
+    }
+
+    /* 12TH SECTION */
+    .frequently h1 {
+        font-size: 33PX;
+    }
+
+    .frequently P {
+        font-size: 15PX;
+    }
+
+    .subfre {
+        width: 55%;
+    }
+
+    .fresub1 {
+        padding-left: 0;
+        font-size: 18px;
+        padding-right: 10%;
+    }
+
+    .fresub1 span {
+        padding-left: 25px;
+    }
+
+    /* 13th section */
+    .contact {
+        width: 100%;
+        height: auto;
+        margin-bottom: 50px;
+    }
+
+    .contactsub {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .contact1 {
+        width: 39%;
+        margin-left: 10%;
+    }
+
+    .contact2 {
+        width: 39%;
+        margin-right: 10%;
+        margin-top: 0px;
+        height: 487px;
+    }
+
+    .contact2 a {
+        left: 40%;
+        bottom: 10%;
+    }
+
+    /* 14th section */
+    .subjoin {
+        width: 30%;
+        margin: auto;
+    }
+
+    .join h1 {
+        font-size: 33px;
+        text-align: left;
+    }
+
+    .join p {
+        text-align: justify;
+        font-size: 15px;
+    }
+
+    .subjoin1 input {
+        width: 100%;
+        height: 32px;
+    }
+
+    .subjoin1 a {
+        padding: 8px 15px;
+        bottom: 44%;
+        left: 80%;
+    }
+
+    /* 15th section */
+    footer {
+        width: 100%;
+        height: auto;
+    }
+
+    .subfooter {
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 30px;
+    }
+
+    .footbox1 {
+        width: 25%;
+        height: 250px;
+        padding-left: 5%;
+    }
+
+    /* 16th section */
+    .foot {
+        height: 70px;
+        width: 100%;
+    }
+
+    .foot1 {
+        height: 80px;
+        width: 80%;
+        line-height: 80px;
+        display: flex;
+        flex-direction: row;
+        font-size: 13px;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+}

@@ -1,0 +1,1518 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: #0c336dc4;
+}
+
+.box1 {
+    width: 80%;
+    height: 80px;
+    margin: auto;
+    background-color: #0c336dc4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subox2 ul {
+    display: flex;
+    align-items: center;
+}
+
+.subox2 ul li {
+    list-style: none;
+    padding: 0% 0% 0% 23px;
+}
+
+.subox2 ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    transition: all 0.5s;
+    font-size: 15px;
+}
+
+#button {
+    border: 2px solid rgb(78, 153, 219);
+    padding: 8px 10px;
+    border-radius: 20px;
+}
+
+.subox2 ul li a:hover {
+    color: rgb(78, 153, 219);
+}
+
+#button:hover {
+    background-color: rgb(78, 153, 219);
+    color: white;
+}
+
+
+/* second section */
+.sec2 {
+    width: 100%;
+    height: 600px;
+    background-color: #072d65c2;
+}
+
+.secsub {
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    display: flex;
+}
+
+.secbox1 {
+    margin-top: 100px;
+    width: 50%;
+    padding-top: 30px;
+}
+
+.secbox1 h1 {
+    font-size: 45px;
+    color: aliceblue;
+    font-weight: bold;
+}
+.secbox1 h1::after{
+    content: 'hi';
+
+}
+
+.secbutton {
+    margin-top: 50px;
+}
+
+#buttonsec {
+    /* border: 1px solid black; */
+    padding: 10px 15PX;
+    border-radius: 25PX;
+    background-color: rgb(78, 153, 219);
+}
+
+#secbutton span {
+    color: aliceblue;
+    margin-left: 35px;
+}
+
+#secbutton {
+    transition: all 0.5s;
+}
+
+#secbutton:hover i {
+    color: rgb(78, 153, 219);
+
+}
+
+.secbutton a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.secbox2 {
+    margin-top: 60px;
+    width: 50%;
+    height: 540px;
+}
+
+.secbox2 img {
+    width: 100%;
+    height: 500px;
+}
+
+
+/* third section */
+.logos {
+    width: 100%;
+    height: 100px;
+    background-color: whitesmoke;
+}
+
+.sublogos {
+    width: 80%;
+    margin: auto;
+    height: 100px;
+    display: flex;
+    background-color: whitesmoke;
+}
+
+.tbox1 {
+    width: 16.66%;
+    height: 100px;
+    filter: grayscale(1);
+    transition: all 0.4s;
+}
+
+.sublogos img {
+    height: 40px;
+    width: 90px;
+    margin-top: 25px;
+    margin-left: 30px;
+    transition: all 0.4s;
+}
+
+.tbox1:hover {
+    filter: grayscale(0);
+}
+
+.tbox1:hover img {
+    height: 50px;
+    width: 100px;
+}
+
+
+/* 4th Section */
+#about {
+    height: auto;
+}
+
+.subabout {
+    width: 80%;
+    margin: auto;
+    height: auto;
+    margin-top: 80px;
+}
+
+.subabout h1 {
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 20px;
+    color: rgb(78, 153, 219);
+}
+.subabout h1{
+    font-size: 40px;
+    padding-top: 30px;
+    position: relative;
+    color: rgb(42, 42, 95);
+}
+.subabout h1::before{
+    content: "";
+    position: absolute;
+    border-bottom: 1px solid gray;
+    width: 200px;
+    top: 100%;
+    left: 43%;
+}
+.subabout h1::after{
+    content: "";
+    position: absolute;
+    border-bottom: 3px solid rgb(32, 169, 223) ;
+    width: 70px;
+    top: 100%;
+    left: 47%;
+}
+
+/* .subabout h1::after {
+    border-bottom: 2px soild rgb(78, 153, 219);
+    width: 100%;
+} */
+
+.subab {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-bottom: 8%;
+}
+
+.div1 {
+    width: 50%;
+    height: auto;
+    padding-top: 50px;
+}
+
+.div1 ul li {
+    list-style: none;
+    padding-bottom: 5px;
+}
+
+.div1 i {
+    font-size: 25px;
+    color: rgb(78, 153, 219);
+}
+
+.div2 {
+    width: 50%;
+    padding-top: 50px;
+    line-height: 25px;
+}
+
+.div2 p {
+    margin-bottom: 30px;
+}
+
+.div2 a {
+    border: 2px solid rgb(78, 153, 219);
+    color: rgb(78, 153, 219);
+    text-decoration: none;
+    padding: 15px 20px;
+    border-radius: 6px;
+}
+
+.div2 a:hover {
+    background-color: rgb(78, 153, 219);
+    color: aliceblue;
+}
+
+/* 5th section */
+.extra {
+    height: auto;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+.subextra {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    height: auto;
+}
+
+.extra1 {
+    width: 50%;
+    padding-top: 10%;
+
+}
+
+.extra1 span {
+    color: rgb(78, 153, 219);
+    font-size: 20px;
+}
+
+.extra1 h1 {
+    color: rgb(78, 153, 219);
+}
+
+.extra1 i {
+    font-weight: 300;
+}
+
+.extra1 p {
+    color: gray;
+    line-height: 20px;
+    margin-top: 10px;
+}
+
+.extrasub {
+    width: 100%;
+    /* margin: auto; */
+    height: 70px;
+    /* padding-top: 15px; */
+    background-color: white;
+    margin-top: 20px;
+    align-content: center;
+    font-size: 20px;
+    transition: all 0.4s;
+    box-shadow: 2px 2px 2px 2px gray;
+}
+
+.extrasub:hover {
+    color: rgb(78, 153, 219);
+
+}
+
+.extrasub span {
+    padding-right: 5px;
+}
+
+.extra2 {
+    width: 50%;
+    padding-top: 6%;
+    /* padding-left: 20%;    */
+}
+
+.extra2 img {
+    width: 650px;
+    margin-left: 20%;
+    height: 550px;
+    /* padding-top: 15px; */
+}
+
+
+
+/* section 6th */
+.skill {
+    height: auto;
+    width: 100%;
+    /* background-color: aliceblue; */
+}
+
+.subskill {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.skill1 {
+    width: 50%;
+    height: auto;
+    margin-top: 10%;
+    margin-bottom: 8%;
+}
+
+.skill1 img {
+    width: 100%;
+
+}
+
+.skill2 {
+    width: 50%;
+    margin-top: 10%;
+    margin-bottom: 8%;
+
+
+}
+
+.skillsub {
+    width: 100%;
+    color: rgb(78, 153, 219);
+    margin-top: 20px;
+}
+
+.per1 {
+    width: 100%;
+    height: 14px;
+    border: 1px solid rgb(78, 153, 219);
+}
+
+.per2 {
+    width: 100%;
+    height: 14px;
+    background-color: rgb(78, 153, 219);
+}
+
+.skillsub1 {
+    width: 100%;
+    color: rgb(78, 153, 219);
+    margin-top: 20px;
+    justify-content: end;
+
+}
+
+.per11 {
+    width: 100%;
+    height: 14px;
+    border: 1px solid rgb(78, 153, 219);
+}
+
+.per21 {
+    width: 90%;
+    height: 14px;
+    background-color: rgb(78, 153, 219);
+}
+
+.skillsub2 {
+    width: 100%;
+    color: rgb(78, 153, 219);
+    margin-top: 20px;
+
+}
+
+.per12 {
+    width: 100%;
+    height: 14px;
+    border: 1px solid rgb(78, 153, 219);
+}
+
+.per22 {
+    width: 75%;
+    height: 14px;
+    background-color: rgb(78, 153, 219);
+}
+
+.skillsub3 {
+    width: 100%;
+    color: rgb(78, 153, 219);
+    margin-top: 20px;
+
+}
+
+.per13 {
+    width: 100%;
+    height: 14px;
+    border: 1px solid rgb(78, 153, 219);
+}
+
+.per23 {
+    width: 55%;
+    height: 14px;
+    background-color: rgb(78, 153, 219);
+}
+
+/* 7th section */
+#services {
+    height: auto;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+.service {
+    width: 80%;
+    margin: auto;
+}
+
+.service h1 {
+    text-align: center;
+    padding-top: 10%;
+
+}
+#serviceh1 h1{
+    font-size: 40px;
+    padding-top: 30px;
+    position: relative;
+    color: rgb(42, 42, 95);
+}
+#serviceh1::before{
+    content: "";
+    position: absolute;
+    border-bottom: 1px solid gray;
+    width: 200px;
+    top: 100%;
+    left: 43%;
+}
+#serviceh1::after{
+    content: "";
+    position: absolute;
+    border-bottom: 3px solid rgb(32, 169, 223) ;
+    width: 70px;
+    top: 100%;
+    left: 47%;
+}
+
+.service p {
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.sermain {
+    display: flex;
+    justify-content: space-between;
+}
+
+.serbox1 {
+    width: 23%;
+    height: 250px;
+    border: 1px solid black;
+    margin-bottom: 2%;
+    background-color: white;
+    padding-top: 25PX;
+    transition: all 0.4s;
+    box-shadow: 2px 2px 2px gray;
+}
+
+.serbox1 h1 {
+    text-align: left;
+    padding-left: 10%;
+    line-height: 50px;
+}
+
+.serbox1 h1 i {
+    color: rgb(78, 153, 219);
+}
+
+.serbox1 P {
+    margin-top: 8%;
+    text-align: center;
+    font-size: 15px;
+}
+
+.serbox1 h1:hover {
+    color: rgb(78, 153, 219);
+}
+
+/* 8thsection */
+.cta {
+    width: 100%;
+    height: 550px;
+    padding: 130px 0px;
+    position: relative;
+
+}
+
+.subcta {
+    width: 100%;
+    margin: auto;
+    /* border: 1px solid black; */
+    height: 350px;
+    background-image: linear-gradient(rgba(78, 153, 219, 0.9), rgba(18, 54, 86, 0.9)), url(img/cta-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    padding: 100px 100px;
+}
+
+.subcta a {
+    margin-left: 70%;
+    border: 2px solid white;
+    border-radius: 30px;
+    color: aliceblue;
+    padding: 20px 40px;
+    text-decoration: none;
+    position: absolute;
+}
+
+.subcta a:hover {
+    background-color: rgb(78, 153, 219);
+    color: aliceblue;
+    border: 2px solid rgb(78, 153, 219);
+}
+
+#portfolio {
+    height: 200px;
+    width: 100%;
+    background-color: white;
+}
+
+#portfolio h1 {
+    margin-top: 45px;
+    text-align: center;
+    color: rgb(78, 153, 219);
+}
+#portfolio h1{
+    font-size: 40px;
+    padding-top: 30px;
+    position: relative;
+    color:rgb(78, 153, 219);
+}
+#portfolio h1::before{
+    content: "";
+    position: absolute;
+    border-bottom: 1px solid gray;
+    width: 200px;
+    top: 100%;
+    left: 43%;
+}
+#portfolio h1::after{
+    content: "";
+    position: absolute;
+    border-bottom: 3px solid rgb(32, 169, 223) ;
+    width: 70px;
+    top: 100%;
+    left: 47%;
+}
+
+#portfolio p {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 4%;
+    text-align: center;
+}
+
+.subportfolio {
+    width: 20%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.subportfolio a {
+    /* border: 1px solid black; */
+    text-decoration: none;
+    padding: 9px 15px;
+    color: black;
+    border-radius: 30px;
+    margin-bottom: 5%;
+}
+
+.subportfolio a:hover {
+    background-color: rgb(78, 153, 219);
+    color: white;
+}
+
+
+
+
+/* 9th section */
+.gallery {
+    height: auto;
+    width: 100%;
+    /* background-color: black; */
+    margin-top: 6%;
+}
+
+.subgallery {
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+
+.sbox1 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0%;
+}
+
+.sbox11 {
+    width: 32%;
+    height: auto;
+    background-color: aliceblue;
+    position: relative;
+    overflow: hidden;
+}
+
+.sbox11 img {
+    width: 100%;
+}
+
+.subg {
+    width: 100%;
+    height: 50px;
+    background-color: rgba(78, 153, 219, 0.404);
+    position: absolute;
+    bottom: -0%;
+    visibility: hidden;
+}
+
+.sbox11:hover .subg {
+    visibility: visible;
+}
+
+.sbox11:hover img {
+    transform: scale(1.2);
+}
+
+.sbox12 {
+    width: 32%;
+    height: auto;
+    /* background-color: aliceblue;  */
+    position: relative;
+    overflow: hidden;
+
+}
+
+.sbox12 img {
+    width: 100%;
+}
+
+.subg1 {
+    width: 100%;
+    height: 50px;
+    background-color: rgba(78, 153, 219, 0.404);
+    position: absolute;
+    bottom: 0%;
+    visibility: hidden;
+}
+
+.sbox12:hover .subg1 {
+    visibility: visible;
+}
+
+.sbox12:hover img {
+    transform: scale(1.2);
+}
+
+.sbox13 {
+    width: 32%;
+    height: auto;
+    /* background-color: aliceblue; */
+    position: relative;
+    overflow: hidden;
+}
+
+.sbox13 img {
+    width: 100%;
+}
+
+.subg2 {
+    width: 100%;
+    height: 50px;
+    background-color: rgba(78, 153, 219, 0.404);
+    position: absolute;
+    bottom: 2%;
+    visibility: hidden;
+}
+
+.sbox13:hover .subg2 {
+    visibility: visible;
+}
+
+.sbox13:hover img {
+    transform: scale(1.2);
+}
+
+
+
+.subg2 {
+    width: 100%;
+    height: 50px;
+    background-color: rgba(78, 153, 219, 0.404);
+    position: absolute;
+    bottom: 45%;
+}
+
+.sbox2 {
+    height: auto;
+    width: 100%;
+    /* color: aliceblue; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.sbox12 {
+    width: 32%;
+    margin-top: 2%;
+    position: relative;
+}
+
+.sbox12 img {
+    width: 100%;
+}
+
+.subg3 {
+    width: 100%;
+    height: 50px;
+    background-color: rgba(78, 153, 219, 0.404);
+    position: absolute;
+    bottom: 2%;
+    visibility: hidden;
+}
+
+.sbox12:hover .subg3 {
+    visibility: visible;
+}
+
+.sbox12:hover img {
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+.subg3 {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(78, 153, 219, 0.404);
+}
+
+.sbox22 {
+    width: 32%;
+    margin-top: -7%;
+    position: relative;
+    overflow: hidden;
+}
+
+.sbox22 img {
+    width: 100%;
+}
+
+.subg4 {
+    position: absolute;
+    bottom: 16%;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(78, 153, 219, 0.404);
+    visibility: hidden;
+}
+
+.sbox22:hover .subg4 {
+    visibility: visible;
+}
+
+.sbox22:hover img {
+    transform: scale(1.2);
+}
+
+
+
+
+.sbox32 {
+    width: 32%;
+    margin-top: -12%;
+    position: relative;
+    overflow: hidden;
+}
+
+.sbox32 img {
+    width: 100%;
+}
+
+.subg5 {
+    position: absolute;
+    bottom: 66%;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(78, 153, 219, 0.404);
+    visibility: hidden;
+}
+
+.sbox32:hover .subg5 {
+    visibility: visible;
+}
+
+.sbox32:hover img {
+    transform: scale(1.2);
+}
+
+
+
+.sbox3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sbox13 {
+    width: 32%;
+    margin-top: 2%;
+    position: relative;
+    overflow: hidden;
+}
+
+.sbox13 img {
+    width: 100%;
+}
+
+.subg6 {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(78, 153, 219, 0.404);
+    visibility: hidden;
+}
+
+.sbox13:hover .subg6 {
+    visibility: visible;
+}
+
+.sbox13:hover img {
+    transform: scale(1.2);
+}
+
+
+
+
+
+.sbox23 {
+    width: 32%;
+    margin-top: -7%;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s;
+
+
+}
+
+.sbox23 img {
+    width: 100%;
+}
+
+.subg7 {
+    position: absolute;
+    bottom: 30%;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(78, 153, 219, 0.404);
+    visibility: hidden;
+}
+
+.sbox23:hover .subg7 {
+    visibility: visible;
+}
+
+.sbox23:hover img {
+    transform: scale(1.2);
+}
+
+
+
+
+.sbox33 {
+    width: 32%;
+    margin-top: -39%;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.2s;
+}
+
+.sbox33 img {
+    width: 100%;
+}
+
+.subg8 {
+    position: absolute;
+    bottom: 67%;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(78, 153, 219, 0.404);
+    visibility: hidden;
+}
+
+.sbox33:hover .subg8 {
+    visibility: visible;
+}
+
+.sbox33:hover img {
+    transform: scale(1.2);
+}
+
+
+
+/* 10th section */
+#team {
+    width: 100%;
+    height: auto;
+    background-color: whitesmoke;
+    margin-bottom: 7%;
+}
+
+#team h1 {
+    text-align: center;
+    margin-top: 5%;
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+#team h1{
+    font-size: 40px;
+    padding-top: 30px;
+    position: relative;
+    color:rgb(78, 153, 219);
+}
+#team h1::before{
+    content: "";
+    position: absolute;
+    border-bottom: 1px solid gray;
+    width: 200px;
+    top: 100%;
+    left: 43%;
+}
+#team h1::after{
+    content: "";
+    position: absolute;
+    border-bottom: 3px solid rgb(32, 169, 223) ;
+    width: 70px;
+    top: 100%;
+    left: 47%;
+}
+
+#team p {
+    text-align: center;
+    margin-bottom: 2%;
+    margin-left: 10%;
+}
+
+.subteam {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.t1 {
+    width: 49%;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px grey;
+
+}
+
+.t11 {
+    width: 40%;
+}
+
+.t11 img {
+    width: 80%;
+    margin-top: 17%;
+    margin-left: 10%;
+    border-radius: 200px;
+}
+
+.t12 {
+    width: 60%;
+    padding-top: 10%;
+}
+
+.t12 i {
+    font-size: 23px;
+    padding: 30px 10px;
+}
+
+.t2 {
+    width: 49%;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px grey;
+
+
+
+}
+
+.t21 {
+    width: 40%;
+}
+
+.t21 img {
+    width: 80%;
+    margin-top: 17%;
+    margin-left: 10%;
+    border-radius: 200px;
+
+}
+
+.t22 {
+    width: 60%;
+    padding-top: 10%;
+}
+
+.t22 i {
+    font-size: 23px;
+    padding: 30px 10px;
+}
+
+.t3 {
+    width: 49%;
+    height: 300px;
+    border: 1px solid black;
+    margin-top: 2%;
+    display: flex;
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px grey;
+
+
+
+}
+
+.t31 {
+    width: 40%;
+}
+
+.t31 img {
+    width: 80%;
+    margin-top: 17%;
+    margin-left: 10%;
+    border-radius: 200px;
+
+}
+
+.t32 {
+    width: 60%;
+    padding-top: 10%;
+}
+
+.t32 i {
+    font-size: 23px;
+    padding: 30px 10px;
+}
+
+.t4 {
+    width: 49%;
+    height: 300px;
+    border: 1px solid black;
+    margin-top: 2%;
+    display: flex;
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px grey;
+
+
+
+
+}
+
+.t41 {
+    width: 40%;
+}
+
+.t41 img {
+    width: 80%;
+    margin-top: 17%;
+    margin-left: 10%;
+    border-radius: 200px;
+
+}
+
+.t42 {
+    width: 60%;
+    padding-top: 10%;
+}
+
+.t42 i {
+    font-size: 23px;
+    padding: 30px 10px;
+}
+
+
+
+
+/* 11TH SECTION */
+.pricing {
+    width: 100%;
+    height: auto;
+}
+
+.pricing h1 {
+    color: rgb(78, 153, 219);
+    text-align: center;
+    margin-top: 7%;
+}
+.pricing h1{
+    font-size: 40px;
+    padding-top: 30px;
+    position: relative;
+    color:rgb(78, 153, 219);
+}
+.pricing h1::before{
+    content: "";
+    position: absolute;
+    border-bottom: 1px solid gray;
+    width: 200px;
+    top: 100%;
+    left: 43%;
+}
+.pricing h1::after{
+    content: "";
+    position: absolute;
+    border-bottom: 3px solid rgb(32, 169, 223) ;
+    width: 70px;
+    top: 100%;
+    left: 47%;
+}
+
+.pricing p {
+    text-align: center;
+}
+
+.subprice {
+    width: 80%;
+    margin: auto;
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.price {
+    width: 32%;
+    height: 450px;
+    background-color: whitesmoke;
+    border-radius: 12px;
+    line-height: 30px;
+    position: relative;
+    box-shadow: 1px 1px 1px 1px grey,    box- 1px 1px 1px 1px grey;
+    ;
+
+
+
+}
+
+.price h3 {
+    margin-left: 10%;
+    margin-top: 10%;
+    color: rgb(78, 153, 219);
+    margin-bottom: 7%;
+}
+
+.price span {
+    padding-left: 10%;
+
+}
+
+.price i {
+    margin-left: 10%;
+}
+
+.price a {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    border: 1px solid rgb(78, 153, 219);
+    text-decoration: none;
+    padding: 8px 20px;
+    border-radius: 50px;
+    color: rgb(78, 153, 219);
+    transition: all 0.3s;
+
+}
+
+.price a:hover {
+    background-color: rgb(78, 153, 219);
+    color: white;
+}
+
+
+/* 12th section */
+.frequently {
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+    background-color: whitesmoke;
+}
+
+.subfre {
+    width: 55%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.fresub1 {
+    border: 1px solid black;
+    padding: 20px 0px;
+    margin: 30px 0px;
+    color: rgb(59, 74, 241);
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+
+.fresub1 span {
+    padding-left: 20px;
+    padding-right: 5px;
+    color: rgb(78, 153, 219);
+}
+
+.fresub1:hover {
+    color: rgb(78, 153, 219);
+}
+
+/* 13th section */
+.contact {
+    width: 100%;
+    height: auto;
+}
+
+.contactsub {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+}
+
+
+.contact1 {
+    width: 40%;
+    border-top: 3px solid rgb(78, 153, 219);
+    border-bottom: 3px solid rgb(78, 153, 219);
+    box-shadow: 2px 0px 2px 0px grey,2px 0px 2px 0px grey;
+    ;
+
+
+
+}
+
+.contact1 h1 {
+    margin-left: 5%;
+    color: rgb(31, 83, 128);
+    margin-top: 20px;
+}
+
+.contact1 p {
+    margin-left: 5%;
+}
+
+.contact1 h1 i {
+    color: rgb(78, 153, 219);
+}
+
+.contact2 {
+    width: 58%;
+    position: relative;
+    border-top: 3px solid rgb(78, 153, 219);
+    border-bottom: 3px solid rgb(78, 153, 219);
+    box-shadow: 2px 0px 2px 0px grey;
+
+}
+
+.conatct11 {
+    width: 90%;
+    height: 250px;
+    margin: auto;
+}
+
+.conatct11 iframe {
+    width: 100%;
+    height: 200px;
+    margin-top: 5%;
+    margin-bottom: 10px;
+
+}
+
+.cname {
+    float: left;
+    width: 39%;
+    margin-top: 30px;
+    margin-left: 10%;
+    margin-right: 2%;
+    font-size: 18px;
+    color: rgb(73, 71, 71);
+}
+
+.cname input {
+    width: 100%;
+    height: 40px;
+    margin-top: 8px;
+}
+
+.cemail {
+    float: left;
+    width: 39%;
+    margin-top: 30px;
+    margin-right: 10%;
+    font-size: 18px;
+    color: rgb(73, 71, 71);
+
+}
+
+.cemail input {
+    width: 100%;
+    height: 40px;
+    margin-top: 8px;
+}
+
+.csubject {
+    margin-top: 18%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 18px;
+    color: rgb(73, 71, 71);
+}
+
+.csubject input {
+    width: 100%;
+    height: 40px;
+    margin-top: 8px;
+}
+
+.cmssg {
+    margin-top: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 18px;
+    color: rgb(73, 71, 71);
+
+}
+
+.cmssg textarea {
+    width: 100%;
+    margin-top: 8px;
+    height: 100px;
+}
+
+.contact2 a {
+    text-decoration: none;
+    padding: 10px 20px;
+    position: absolute;
+    bottom: 10%;
+    left: 40%;
+    background-color: rgb(78, 153, 219);
+    color: white;
+    border-radius: 20px;
+}
+
+.contact2 a:hover {
+    background-color: rgb(20, 53, 83);
+}
+
+/* 14th section */
+.join {
+    width: 100%;
+    height: auto;
+    background-color: whitesmoke;
+    padding-top: 50px;
+}
+
+.subjoin {
+    width: 30%;
+    margin: auto;
+}
+
+.subjoin1 {
+    margin-top: 10%;
+    width: 100%;
+    height: 60px;
+    margin-bottom: 10%;
+    position: relative;
+}
+
+.subjoin1 input {
+    width: 100%;
+    height: 32px;
+    border-radius: 15px;
+}
+
+.subjoin1 a {
+    padding: 8px 15px;
+    border-radius: 15px;
+    background-color: rgb(78, 153, 219);
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    font-size: 16px;
+    bottom: 44%;
+    left: 80%;
+}
+
+
+/* 15th section */
+footer {
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+
+.subfooter {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    height: auto;
+}
+
+.footbox1 {
+    width: 25%;
+    height: 350px;
+
+}
+
+.subfooter h2 {
+    color: rgb(78, 153, 219);
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.subfooter h4 {
+    color: rgb(78, 153, 219);
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.footbox1 a
+{
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    transition: all 0.4s;
+}
+.footbox1 a:hover{
+    color: rgb(78, 153, 219);
+}
+
+/* 16th section */
+.foot{
+    height: 80px;
+    background-color: rgb(78, 153, 219);
+    width: 100%;
+}
+.foot1{
+    height: 80px;
+    width: 70%;
+    line-height: 80px;
+    margin: auto;
+    display: flex;
+    color: white;
+    font-size: 13px;
+    justify-content: space-between;
+}
